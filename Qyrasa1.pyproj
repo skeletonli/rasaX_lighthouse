@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{81782ad6-53c1-44c5-a342-d27c424d2c94}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Server.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="action找不到date_time只识别为date.png" />
+    <Content Include="rasa运行截图.png" />
+    <Content Include="中文\dist\zh_core_web_lg-2.3.1\zh_core_web_lg.egg-info\dependency_links.txt" />
+    <Content Include="中文\dist\zh_core_web_lg-2.3.1\zh_core_web_lg.egg-info\requires.txt" />
+    <Content Include="中文\dist\zh_core_web_lg-2.3.1\zh_core_web_lg.egg-info\SOURCES.txt" />
+    <Content Include="中文\dist\zh_core_web_lg-2.3.1\zh_core_web_lg.egg-info\top_level.txt" />
+    <Content Include="命令.txt" />
+    <Content Include="微信截图_20210114181136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="actions\actions.py" />
+    <Compile Include="actions\ChatApis.py" />
+    <Compile Include="actions\WeatherApis.py" />
+    <Compile Include="actions\__init__.py" />
+    <Compile Include="Server.py" />
+    <Compile Include="中文\dist\zh_core_web_lg-2.3.1\build\lib\zh_core_web_lg\__init__.py" />
+    <Compile Include="中文\dist\zh_core_web_lg-2.3.1\setup.py" />
+    <Compile Include="中文\dist\zh_core_web_lg-2.3.1\zh_core_web_lg\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="actions" />
+    <Folder Include="中文\" />
+    <Folder Include="中文\dist\" />
+    <Folder Include="中文\dist\zh_core_web_lg-2.3.1" />
+    <Folder Include="中文\dist\zh_core_web_lg-2.3.1\build\" />
+    <Folder Include="中文\dist\zh_core_web_lg-2.3.1\build\lib\" />
+    <Folder Include="中文\dist\zh_core_web_lg-2.3.1\build\lib\zh_core_web_lg" />
+    <Folder Include="中文\dist\zh_core_web_lg-2.3.1\zh_core_web_lg" />
+    <Folder Include="中文\dist\zh_core_web_lg-2.3.1\zh_core_web_lg.egg-info" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
