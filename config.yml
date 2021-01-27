@@ -4,7 +4,7 @@ language: zh
 
 pipeline:
   - name: SpacyNLP                   # 预训练词向量
-    model: "zh_core_web_md"
+    model: "zh_core_web_lg"
   - name: SpacyTokenizer          # 文本分词器
   - name: SpacyEntityExtractor    #特征提取器 将一句话变成一个向量
   - name: SpacyFeaturizer         #文本特征化
