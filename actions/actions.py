@@ -78,6 +78,7 @@ def text_date_to_number_date(text_date):
     if text_date == "明天":
         return 1
     if text_date == "后天":
+        a = 1
         return 2
 
     # Not supported by weather API provider freely
