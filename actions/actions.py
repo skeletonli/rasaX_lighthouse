@@ -19,7 +19,7 @@ from requests import (
 class ActionQueryWeatherForm(Action):
 
     def name(self) -> Text:
-        """Unique identifier of the form"""
+        """Unique identifier of the form test """
 
         return "action_query_weather_form"
 
