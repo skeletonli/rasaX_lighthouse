@@ -25,6 +25,7 @@ responses:
   - text: 嗯嗯，好的！
   - text: 嗯嗯，很开心能够帮您解决问题~
   - text: 嗯嗯，还需要什么我能够帮助您的呢？
+  - text: 嗯嗯，不用客气哦。
   utter_answer_greet:
   - text: 您好！请问我可以帮到您吗？
   - text: 您好！很高兴为您服务。请说出您要查询的功能？
