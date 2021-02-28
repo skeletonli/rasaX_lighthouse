@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -19,7 +18,6 @@ nlu:
     - 哈喽哈喽
     - hello hello
     - 喂喂
-
 - intent: goodbye
   examples: |
     - goodbye
@@ -40,7 +38,6 @@ nlu:
     - 好了，就说这么多了
     - 好了，先这样
     - 没事
-
 - intent: whoareyou
   examples: |
     - 你是谁
@@ -56,14 +53,12 @@ nlu:
     - 是谁？
     - 可以告诉我你的名字吗
     - 你叫什么名字
-
 - intent: whattodo
   examples: |
     - 你支持什么功能
     - 你有什么功能
     - 你能干什么
     - 你能做什么
-
 - intent: thanks
   examples: |
     - 谢谢
@@ -74,7 +69,6 @@ nlu:
     - 你帮了我大忙，谢谢你小智
     - 非常感谢
     - 谢了
-
 - intent: deny
   examples: |
     - 不
@@ -90,7 +84,6 @@ nlu:
     - 你长得很美，就不要想得太美。
     - 拒绝
     - 不行
-
 - intent: affirm
   examples: |
     - 是的
@@ -111,7 +104,6 @@ nlu:
     - 行
     - 还行
     - 当然可以
-
 - intent: request_weather
   examples: |
     - 天气
@@ -122,7 +114,7 @@ nlu:
     - [今天](date_time)的天气怎么样
     - 帮我查下[后天](date_time)的天气
     - 查下[广州](address)的天气怎么样
-    -  [长沙](address)的天气
+    - [长沙](address)的天气
     - [深圳](address)[明天](date_time)的天气
     - 查下[今天](date_time)[上海](address)的天气
     - 帮我查查[佛山](address)这[周六](date_time)的天气
