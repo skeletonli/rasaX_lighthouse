@@ -58,6 +58,8 @@ nlu:
     - 你支持什么功能
     - 你有什么功能
     - 你能干什么
+- intent: ddd_intent
+  examples: |
     - 你能做什么
 - intent: thanks
   examples: |
